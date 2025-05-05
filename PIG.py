@@ -3,7 +3,7 @@ def roll_dice():
     return random.randint(1,6)
 
 while True:
-    players = input('Enter number of players: ')
+    players = input('Enter number of players (2 to 4): ')
     if players in ['2','3','4']:
         players = int(players)
         break
